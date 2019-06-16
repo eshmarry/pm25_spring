@@ -6,7 +6,7 @@ public class PM25 {
     private int id;
     private String areaCode;
     private String area;
-    private Date time;
+    private String time;
     private String place;
     private int AQI;
     private String AQItype;
@@ -43,11 +43,11 @@ public class PM25 {
         this.area = area;
     }
 
-    public Date getTime() {
+    public String getTime() {
         return time;
     }
 
-    public void setTime(Date time) {
+    public void setTime(String time) {
         this.time = time;
     }
 

@@ -1,5 +1,6 @@
 package com.pm25.text;
 
+import com.pm25.dto.PM25dto;
 import com.pm25.service.AreaService;
 import com.pm25.service.PM25Service;
 import com.pm25.serviceImpl.AreaServiceImpl;
@@ -18,6 +19,8 @@ public class MGBText {
             System.out.println(s+"-----");
         }*/
         PM25Service pm25Service = new PM25ServiceImpl();
-        pm25Service.getPlaceByTimeAndArea("济南市","2014-08-30 19:00:00");
+        List<PM25dto> timeEndData = pm25Service.getTimeEndData();
+
+
     }
 }

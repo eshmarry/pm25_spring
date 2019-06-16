@@ -5,7 +5,7 @@ import java.util.Date;
 
 public class AreaAQIdto {
     private Integer AQI;
-    private Date time;
+    private String time;
 
     public Integer getAQI() {
         return AQI;
@@ -15,11 +15,11 @@ public class AreaAQIdto {
         this.AQI = AQI;
     }
 
-    public Date getTime() {
+    public String getTime() {
         return time;
     }
 
-    public void setTime(Date time) {
+    public void setTime(String time) {
         this.time = time;
     }
 }
